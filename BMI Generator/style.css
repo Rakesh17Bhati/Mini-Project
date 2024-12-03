@@ -1,0 +1,64 @@
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+form{
+    width: 40%;
+}
+h2{
+    text-align: center;
+}
+input{
+    width: 90%;
+    padding: 5px;
+    border: 1px solid #929292;
+    outline: none;
+}
+
+input:focus{
+    border: 1px solid #006eff;
+    outline: none;
+}
+.field{
+    margin-bottom: 20px;
+}
+.container{
+    width: 30%;
+    text-align: center;
+}
+input::placeholder{
+    text-align: right;
+}
+main{
+    display: flex;
+    margin-top: 15%;
+    justify-content: center;
+}
+label{
+    font-weight: 600;
+}
+button{
+    width: 90%;
+    padding: 10px;
+    background-color: #006eff;
+    color: white;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+}
+#result{
+    font-size: 52px;
+    margin-bottom: 0px;
+}
+#value{
+    margin: 0;
+}
+#error{
+    color: red;
+    text-align: center;
+}
