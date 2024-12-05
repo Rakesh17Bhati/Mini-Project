@@ -1,0 +1,11 @@
+.center{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#clock{
+    border: 1px solid black;
+    padding: 20px;
+    font-size: 2rem;
+}
