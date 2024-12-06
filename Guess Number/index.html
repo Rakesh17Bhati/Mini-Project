@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the Number</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+   <main>
+    <h1>Guess the Number</h1>
+    <section id="gameContent">
+        <div class="text-field">
+            <p>Guess the number between 1 to 100</p>
+            <p id="attempt"></p>
+        </div>
+        <div class="input-field">
+            <input type="number" name="" id="userInput" placeholder="Enter a number">
+            <button id="check">Check</button>
+        </div>
+        <div class="message-field">
+            <h2 id="message"></h2>
+        </div>
+        <div class="recent-field">
+            <h3>Previous Guess</h3>
+            <div id="recent">
+                <!-- <div class="guess">10</div>
+                <div class="guess">20</div> -->
+            </div>
+        </div>
+    </section>
+
+    <section id="nextGame">
+        <button id="play">
+            <i class="fa-solid fa-play"></i>
+            <h2>Play Again</h2>
+        </button>
+    </section>
+
+   </main>
+   <script src="./script.js"></script>
+</body>
+</html>

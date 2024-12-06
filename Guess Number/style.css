@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    border: 1px solid black;
+    width: 60%;
+    height: 80vh;
+    margin: 50px auto;
+    border-radius: 10px;
+    text-align: center;
+}
+
+main h1{
+    color: #0080ff;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 40px;
+}
+.text-field p{
+    color: gray;
+    margin: 5px;
+}
+.input-field{
+    margin-top: 50px;
+}
+.input-field input{
+    padding: 10px;
+    width: 40%;
+    border: 2px solid #0080ff;
+}
+::-webkit-inner-spin-button{
+    display: none;
+}
+.input-field button{
+    padding: 10px 30px;
+    color: white;
+    background-color: #0080ff;
+    border: none;
+    outline: none;
+    font-weight: 600;
+    cursor: pointer;
+}
+.recent-field{
+    margin-top: 50px;
+}
+#recent{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    flex-wrap: wrap;
+}
+#recent .guess{
+    border: 1px solid #0080ff;
+    padding: 10px;
+    margin-right: 5px;
+    color: #0080ff;
+
+}
+
+#nextGame{
+    margin: 20%;
+    display: none;
+}
+#nextGame button{
+    text-align: center;
+    background-color: #0080ff;
+    color: white;
+    border: none;
+    outline: none;
+    padding: 20px 40px;
+    font-size: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+@media screen and (max-width:540px) {
+    main{
+        width: 90%;
+    }
+}
